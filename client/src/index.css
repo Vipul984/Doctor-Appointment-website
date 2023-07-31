@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* antd override */
+
+input {
+  border-radius: 2px !important;
+  border: 1px solid rgba(128, 128, 128, 0.521) !important;
+  height: 40px !important;
+}
+
+input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: 1px solid gray !important;
+}
+
+label {
+  font-size: 16px;
+  color: black;
+}
+
+.ant-form-item {
+  margin: 10px 0;
+}
+
+.ant-picker-input input {
+  border: none !important;
+}
+
+.ant-picker {
+  border-radius: 2px !important;
+  border: 1px solid rgba(128, 128, 128, 0.521) !important;
+  height: 40px !important;
+}
+
+/* common styling */
+
+.primary-button {
+  background-color: #005555 !important;
+  border-color: #005555;
+  height: 40px;
+  width: 100%;
+  color: white;
+  font-size: 16px;
+  width: max-content !important;
+}
+
+.full-width-button {
+  width: 100% !important;
+}
+
+p {
+  color: rgba(0, 0, 0, 0.678) !important;
+  margin: 0 !important;
+  padding: 0 !important;
+
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.card {
+  box-shadow: 0 0 2px rgb(189, 188, 188) !important;
+  border-radius: 0;
+}
+
+.page-title {
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.829);
+  font-weight: bold;
+}
+
+.card-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.562);
+}
+
+.normal-text {
+  font-size: 1rem;
+
+}
+
+.anchor {
+  color: black;
+  text-decoration: underline;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+/* authentication pages */
+
+.authentication {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #005555;
+}
+
+.authentication-form {
+  width: 400px;
+}
+
+.authentication .card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: orangered;
+  color: white;
+  max-width: max-content;
+  padding: 7px 15px;
+  margin-left: -40px;
+  border-bottom-left-radius: 10px;
+}
+
+/* .doctor-form input {
+  height: 24px !important;
+} */
